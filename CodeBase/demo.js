@@ -90,20 +90,7 @@ function IsTropical(fruit)//fruit is a variable and is an input parameter
             isTropical = true;
             break;
 
-        case "tomato":
-            isTropical = false;
-            break;
-
-        case "mango":
-            isTropical = true;
-            break;
-
-        case "watermelon":
-            isTropical = true;
-            break;
-
-        default:
-            isTropical = false;            
+                
     }
 
     alert("Is "+ fruit+ " tropical?"+ isTropical );
@@ -117,7 +104,7 @@ function Repeat( message )
     while (counter < 5)
     {
         console.log( message );
-        counter++; //You have to remember to increment the counter otherwise the loop will go on endlessly
+       // counter++; //You have to remember to increment the counter otherwise the loop will go on endlessly
     }
 
     counter = 0;
